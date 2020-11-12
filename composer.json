@@ -1,0 +1,16 @@
+{
+  "name": "chilidevs/woo-sms-notification",
+  "description": "SMS Notifications for WordPress and WooCommerce",
+  "type": "wordpress-plugin",
+  "license": "GPL2",
+  "authors": [
+    {
+      "name": "chilidevs",
+      "email": "info@chilidevs.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "messagemedia/messages-sdk": "dev-master"
+  }
+}
