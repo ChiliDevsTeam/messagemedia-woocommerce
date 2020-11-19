@@ -77,6 +77,7 @@ class WC_MessageMedia {
         // Define all constant
         $this->define();
 
+        add_action( 'admin_notices', [ $this, 'installation_notice' ], 10 );
         add_action( 'woocommerce_loaded', [ $this, 'init_plugin' ] );
     }
 
@@ -104,6 +105,24 @@ class WC_MessageMedia {
         define( 'WC_MSGMEDIA_DIR', dirname(__FILE__) );
         define( 'WC_MSGMEDIA_PLUGIN_LIB_PATH', dirname(__FILE__). '/libs' );
         define( 'WC_MSGMEDIA_ASSETS', plugins_url( '/assets', WC_MSGMEDIA_FILE ) );
+    }
+
+    /**
+     * Installation notice
+     *
+     * @since 1.0.0
+     *
+     * @return void
+     */
+    public function installation_notice() {
+        if ( ! function_exists( 'WC' ) ) {
+            ?>
+            <div id="message" class="error notice is-dismissible">
+                <p><?php echo sprintf( wp_kses_post( '<b>MessageMedia for WooCommerce</b> requires <a href="%s">WooCommerce</a> to be installed & activated! Go back your <a href="%s">Plugin page</a>', 'wc-messagemedia' ), 'https://wordpress.org/plugins/woocommerce/', esc_url( admin_url( 'plugins.php' ) ) ) ?></p>
+                <button type="button" class="notice-dismiss"><span class="screen-reader-text"><?php _e( 'Dismiss this notice.', 'wc-messagemedia' ) ?></span></button>
+            </div>
+            <?php
+        }
     }
 
     /**

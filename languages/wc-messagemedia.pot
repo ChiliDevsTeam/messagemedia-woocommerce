@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Messagemedia for WooCommerce 1.0.0\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/messagemedia-woocommerce\n"
-"POT-Creation-Date: 2020-11-13 19:21:11+00:00\n"
+"POT-Creation-Date: 2020-11-19 07:19:05+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -87,11 +87,11 @@ msgid ""
 "checkout page"
 msgstr ""
 
-#: includes/class-admin-settings.php:156 wc-messagemedia.php:226
+#: includes/class-admin-settings.php:156 wc-messagemedia.php:245
 msgid "Yes"
 msgstr ""
 
-#: includes/class-admin-settings.php:157 wc-messagemedia.php:226
+#: includes/class-admin-settings.php:157 wc-messagemedia.php:245
 msgid "No"
 msgstr ""
 
@@ -202,39 +202,43 @@ msgstr ""
 msgid "Save Settings"
 msgstr ""
 
-#: wc-messagemedia.php:189
+#: wc-messagemedia.php:122
+msgid "Dismiss this notice."
+msgstr ""
+
+#: wc-messagemedia.php:208
 msgid "Notify me the order status via sms"
 msgstr ""
 
-#: wc-messagemedia.php:211
+#: wc-messagemedia.php:230
 msgid "<strong>Send Notification Via SMS</strong> must be required"
 msgstr ""
 
-#: wc-messagemedia.php:227
+#: wc-messagemedia.php:246
 msgid "Buyer will get SMS notification"
 msgstr ""
 
-#: wc-messagemedia.php:265
+#: wc-messagemedia.php:284
 msgid "You have a new Order. The [order_id] is now [order_status]"
 msgstr ""
 
-#: wc-messagemedia.php:266
+#: wc-messagemedia.php:285
 msgid "Thanks for purchasing. Your [order_id] is now [order_status]. Thank you"
 msgstr ""
 
-#: wc-messagemedia.php:333
+#: wc-messagemedia.php:352
 msgid "SMS Send Successfully to admin"
 msgstr ""
 
-#: wc-messagemedia.php:335 wc-messagemedia.php:346 wc-messagemedia.php:358
+#: wc-messagemedia.php:354 wc-messagemedia.php:365 wc-messagemedia.php:377
 msgid "SMS sening faild, Try again"
 msgstr ""
 
-#: wc-messagemedia.php:344
+#: wc-messagemedia.php:363
 msgid "SMS Send to customer Successfully"
 msgstr ""
 
-#: wc-messagemedia.php:356
+#: wc-messagemedia.php:375
 msgid "SMS Send Successfully to admin "
 msgstr ""
 
@@ -242,8 +246,8 @@ msgstr ""
 msgid "Messagemedia for WooCommerce"
 msgstr ""
 
-#. Author URI of the plugin/theme
-msgid "http://chilidevs.com/"
+#. Plugin URI of the plugin/theme
+msgid "https://messagemedia.com/us/"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -254,4 +258,8 @@ msgstr ""
 
 #. Author of the plugin/theme
 msgid "chilidevs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://chilidevs.com/"
 msgstr ""
