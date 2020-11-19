@@ -58,7 +58,7 @@ class WC_MessageMedia_Setting_Options {
      * @return void
      */
     function admin_menu() {
-        add_menu_page( __( 'Settings', 'wc-messagemedia' ), __( 'SMS Settings', 'wc-messagemedia' ), 'manage_woocommerce', 'wc-messagemedia-settings', array( $this, 'plugin_page' ), 'dashicons-email-alt' );
+        add_menu_page( __( 'MessageMedia Settings', 'wc-messagemedia' ), __( 'MessageMedia', 'wc-messagemedia' ), 'manage_woocommerce', 'wc-messagemedia-settings', array( $this, 'plugin_page' ), 'dashicons-email-alt' );
     }
 
     /**

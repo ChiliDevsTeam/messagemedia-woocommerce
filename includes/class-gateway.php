@@ -2,6 +2,8 @@
 use MessageMediaMessagesLib\Models;
 use MessageMediaMessagesLib\Exceptions;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * SMS Gateway handler class
  *

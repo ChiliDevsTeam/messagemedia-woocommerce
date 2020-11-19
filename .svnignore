@@ -27,6 +27,5 @@ yarn-error.log
 mix-manifest.json
 webpack.mix.js
 webpack.config.js
-vendor
 composer.lock
 composer.json
