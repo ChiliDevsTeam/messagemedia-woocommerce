@@ -1,6 +1,6 @@
 {
-  "name": "chilidevs/woo-sms-notification",
-  "description": "SMS Notifications for WordPress and WooCommerce",
+  "name": "chilidevs/messagemedia-woocommerce",
+  "description": "Messagemedia Integration for WooCommerce",
   "type": "wordpress-plugin",
   "license": "GPL2",
   "authors": [
