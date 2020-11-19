@@ -66,7 +66,7 @@ A. No, you don't need to purchase credit for testing purposes. Please check tria
 
 == Changelog ==
 
-= v1.0.0 -> 14 November, 2020 =
+= v1.0.0 -> 19 November, 2020 =
 Initial version released
 
 == Upgrade Notice ==
