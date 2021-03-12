@@ -59,6 +59,9 @@ class WC_MessageMedia_Setting_Options {
      */
     function admin_menu() {
         add_menu_page( __( 'MessageMedia Settings', 'wc-messagemedia' ), __( 'MessageMedia', 'wc-messagemedia' ), 'manage_woocommerce', 'wc-messagemedia-settings', array( $this, 'plugin_page' ), 'dashicons-email-alt' );
+        add_submenu_page( 'wc-messagemedia-settings', __( 'MessageMedia Settings', 'wc-messagemedia' ), __( 'Settings', 'wc-messagemedia' ), 'manage_woocommerce', 'wc-messagemedia-settings', array( $this, 'plugin_page' ) );
+
+        do_action( 'wcmsgmedia_load_menu' );
     }
 
     /**
@@ -163,7 +166,7 @@ class WC_MessageMedia_Setting_Options {
                     'label' => __( 'Customer Notification Text', 'wc-messagemedia' ),
                     'desc' => __( 'Enter your text which is appeared in checkout page for the customers', 'wc-messagemedia' ),
                     'type' => 'textarea',
-                    'default' => 'Send me order status notifications via SMS (N.B.: Your SMS will be sent in your billing phone. Make sure phone number must have an valid extension )'
+                    'default' => __( 'Send me order status notifications via SMS (N.B.: Your SMS will be sent in your billing phone. Make sure phone number must have an valid extension )', 'wc-messagemedia' )
                 ),
                 array(
                     'name' => 'order_status',
@@ -178,14 +181,14 @@ class WC_MessageMedia_Setting_Options {
                 array(
                     'name' => 'messagemedia_api_key',
                     'label' => __( 'API Key', 'wc-messagemedia' ),
-                    'desc' => sprintf( __( 'Enter your API key for messagemedia, for getting your api key please visit <a href="%s" target="_blank">API Settings</a>', 'wc-messagemedia' ), esc_url( 'https://hub.messagemedia.com/api-settings-v2' ) ),
+                    'desc' => sprintf( __( 'Enter your API key for messagemedia, for getting your api key please visit <a href="%s" target="_blank">API Settings</a>', 'wc-messagemedia' ), esc_url( 'https://hub.messagemedia.com/registration/chilidevs' ) ),
                     'type' => 'text',
                     'default' => '',
                 ),
                 array(
                     'name' => 'messagemedia_api_secret',
                     'label' => __( 'API Secret', 'wc-messagemedia' ),
-                    'desc' => sprintf( __( 'Enter your API Secret for messagemedia, for getting your api secret please visit <a href="%s" target="_blank">API Settings</a>', 'wc-messagemedia' ), esc_url( 'https://hub.messagemedia.com/api-settings-v2' ) ),
+                    'desc' => sprintf( __( 'Enter your API Secret for messagemedia, for getting your api secret please visit <a href="%s" target="_blank">API Settings</a>', 'wc-messagemedia' ), esc_url( 'https://hub.messagemedia.com/registration/chilidevs' ) ),
                     'type' => 'text',
                     'default' => '',
                 ),

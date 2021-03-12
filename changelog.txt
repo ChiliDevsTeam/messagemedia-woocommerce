@@ -1,2 +1,9 @@
-= v1.0.0 -> 19 November, 2020 =
+= v1.0.1 (March 12, 2021) =
+
+- **Fix:** Translation texdomain issues fixed
+- **Fix:** Added some missing textdomain
+- **Fix:** Added menu loading hooks for extending
+
+= v1.0.0 (19 November, 2020) =
+
 Initial version released

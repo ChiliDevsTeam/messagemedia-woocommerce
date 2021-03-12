@@ -62,11 +62,20 @@ class WC_MessageMedia_Gateways {
 
         try {
             $result = $messagesController->sendMessages($body);
-            return true;
-        } catch (Exceptions\SendMessages400Response $e) {
-            echo 'Caught SendMessages400Response: ',  $e->getMessage(), "\n";
-        } catch (MessageMediaMessagesLib\APIException $e) {
-            echo 'Caught APIException: ',  $e->getMessage(), "\n";
+            return array(
+                'status' => true,
+                'result' => $result
+            );
+        } catch ( Exceptions\SendMessages400Response $e ) {
+            return  array(
+                'status' => false,
+                'result' => $e->getMessage()
+            );
+        } catch ( MessageMediaMessagesLib\APIException $e ) {
+            return  array(
+                'status' => false,
+                'result' => $e->getMessage()
+            );
         }
 
     }
