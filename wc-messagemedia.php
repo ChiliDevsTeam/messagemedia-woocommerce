@@ -180,7 +180,7 @@ class WC_MessageMedia {
      * @uses load_plugin_textdomain()
      */
     public function localization_setup() {
-        load_plugin_textdomain( 'wcmsgmedia', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+        load_plugin_textdomain( 'wc-messagemedia', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
     }
 
     /**

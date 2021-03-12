@@ -59,6 +59,9 @@ class WC_MessageMedia_Setting_Options {
      */
     function admin_menu() {
         add_menu_page( __( 'MessageMedia Settings', 'wc-messagemedia' ), __( 'MessageMedia', 'wc-messagemedia' ), 'manage_woocommerce', 'wc-messagemedia-settings', array( $this, 'plugin_page' ), 'dashicons-email-alt' );
+        add_submenu_page( 'wc-messagemedia-settings', __( 'MessageMedia Settings', 'wc-messagemedia' ), __( 'Settings', 'wc-messagemedia' ), 'manage_woocommerce', 'wc-messagemedia-settings', array( $this, 'plugin_page' ) );
+
+        do_action( 'wcmsgmedia_load_menu' );
     }
 
     /**
