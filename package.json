@@ -1,6 +1,6 @@
 {
   "name": "messagemedia-woocommerce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "wc-messagemedia",
   "description": "This is an WooCommerce add-on. By Using this plugin admin and customer can get notification after placing order via messagemedia SMS gateways.",
   "author": "chilidevs",

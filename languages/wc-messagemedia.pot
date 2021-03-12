@@ -1,15 +1,15 @@
-# Copyright (C) 2020 chilidevs
+# Copyright (C) 2021 chilidevs
 # This file is distributed under the GPL2.
 msgid ""
 msgstr ""
-"Project-Id-Version: Messagemedia for WooCommerce 1.0.0\n"
+"Project-Id-Version: Messagemedia for WooCommerce 1.0.1\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/messagemedia-woocommerce\n"
-"POT-Creation-Date: 2020-12-22 06:54:44+00:00\n"
+"POT-Creation-Date: 2021-03-12 05:16:52+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: node-wp-i18n 1.2.3\n"
@@ -105,6 +105,12 @@ msgstr ""
 
 #: includes/class-admin-settings.php:167
 msgid "Enter your text which is appeared in checkout page for the customers"
+msgstr ""
+
+#: includes/class-admin-settings.php:169
+msgid ""
+"Send me order status notifications via SMS (N.B.: Your SMS will be sent in "
+"your billing phone. Make sure phone number must have an valid extension )"
 msgstr ""
 
 #: includes/class-admin-settings.php:173
