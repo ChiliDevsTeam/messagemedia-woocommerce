@@ -18,7 +18,7 @@ A [MessageMedia](https://messagemedia.com/us/) integration with WooCommerce lets
 
 [MessageMedia](https://messagemedia.com/us/) is an SMS service provider that helps you create engaging mobile experiences that customers, staff and communities love. [Learn more](https://messagemedia.com/us/)
 
-The Messagemedia WooCommerce plugin for WordPress is very useful when you want to get notified via SMS after placing an order. Customer and admin both will get SMS notification after an order is placed.
+The Messagemedia WooCommerce plugin for WordPress is very useful when you want to get notified via SMS after placing an order. Customer and admin both will get SMS notification after an order is placed. You can sign up here for [create a account](https://hub.messagemedia.com/registration/chilidevs)
 
 = Basic Features =
 
