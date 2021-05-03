@@ -130,7 +130,7 @@ class WC_MessageMedia_Setting_Options {
                 array(
                     'name' => 'enable_notification',
                     'label' => __( 'Enable SMS Notifications', 'wc-messagemedia' ),
-                    'desc' => __( 'If checked, then sms notification will be enabled', 'wc-messagemedia' ),
+                    'desc' => __( 'If checked, then admin sms notification will be enabled for the order', 'wc-messagemedia' ),
                     'type' => 'checkbox',
                 ),
 
@@ -181,14 +181,14 @@ class WC_MessageMedia_Setting_Options {
                 array(
                     'name' => 'messagemedia_api_key',
                     'label' => __( 'API Key', 'wc-messagemedia' ),
-                    'desc' => sprintf( __( 'Enter your API key for messagemedia, for getting your api key please visit <a href="%s" target="_blank">API Settings</a>', 'wc-messagemedia' ), esc_url( 'https://hub.messagemedia.com/registration/chilidevs' ) ),
+                    'desc' => sprintf( __( 'Enter your API key for MessageMedia, for getting your api key please visit <a href="%s" target="_blank">API Settings</a>', 'wc-messagemedia' ), esc_url( 'https://hub.messagemedia.com/registration/chilidevs' ) ),
                     'type' => 'text',
                     'default' => '',
                 ),
                 array(
                     'name' => 'messagemedia_api_secret',
                     'label' => __( 'API Secret', 'wc-messagemedia' ),
-                    'desc' => sprintf( __( 'Enter your API Secret for messagemedia, for getting your api secret please visit <a href="%s" target="_blank">API Settings</a>', 'wc-messagemedia' ), esc_url( 'https://hub.messagemedia.com/registration/chilidevs' ) ),
+                    'desc' => sprintf( __( 'Enter your API Secret for MessageMedia, for getting your api secret please visit <a href="%s" target="_blank">API Settings</a>', 'wc-messagemedia' ), esc_url( 'https://hub.messagemedia.com/registration/chilidevs' ) ),
                     'type' => 'text',
                     'default' => '',
                 ),
@@ -198,7 +198,7 @@ class WC_MessageMedia_Setting_Options {
                 array(
                     'name' => 'sms_admin_phone',
                     'label' => __( 'Enter admin Phone Number with extension', 'wc-messagemedia' ),
-                    'desc' => __( '<br>Admin order sms notifications will be send in this number. Please make sure that the number must have a extension (e.g.: +8801626265565 where +880 will be extension )', 'wc-messagemedia' ),
+                    'desc' => __( '<br>Admin order sms notifications will send in to this number. Please make sure that the number must have an extension ( e.g.: +61411386344 where +61 is extension )', 'wc-messagemedia' ),
                     'type' => 'text'
                 ),
                 array(
