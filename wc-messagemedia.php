@@ -152,7 +152,7 @@ class WC_MessageMedia {
         add_action( 'init', [ $this, 'localization_setup' ] );
         add_action( 'init', [ $this, 'init_classes' ] );
 
-        add_action( 'woocommerce_checkout_after_customer_details', [ $this, 'customer_notification_field' ] );
+        add_action( 'woocommerce_review_order_before_submit', [ $this, 'customer_notification_field' ], 99 );
         add_action( 'woocommerce_checkout_process', [ $this, 'customer_notification_field_process' ] );
         add_action( 'woocommerce_checkout_update_order_meta', [ $this, 'customer_notification_update_order_meta' ] );
         add_action( 'woocommerce_admin_order_data_after_billing_address', [ $this, 'customer_sms_status_admin_order_meta' ], 10, 1 );
