@@ -1,3 +1,8 @@
+= v1.0.2 (August 13, 2021) =
+
+- **Fix:** Fixed buyer notification checbox layout styles.
+- **Fix:** Fixed some code formatting.
+
 = v1.0.1 (March 12, 2021) =
 
 - **Fix:** Translation texdomain issues fixed

@@ -3,12 +3,12 @@
 Plugin Name: Messagemedia for WooCommerce
 Plugin URI: https://messagemedia.com/us/
 Description: This is an WooCommerce add-on. By Using this plugin admin and customer can get notification after placing order via messagemedia SMS gateways.
-Version: 1.0.1
+Version: 1.0.2
 Author: chilidevs
 Author URI: http://chilidevs.com/
 Text Domain: wc-messagemedia
-WC requires at least: 3.0
-WC tested up to: 5.1.0
+WC requires at least: 4.0
+WC tested up to: 5.5.2
 Domain Path: /languages/
 License: GPL2
 */
@@ -55,7 +55,7 @@ class WC_MessageMedia {
      *
      * @var string
      */
-    public $version = '1.0.0';
+    public $version = '1.0.2';
 
     /**
      * Instance of self
@@ -152,7 +152,7 @@ class WC_MessageMedia {
         add_action( 'init', [ $this, 'localization_setup' ] );
         add_action( 'init', [ $this, 'init_classes' ] );
 
-        add_action( 'woocommerce_checkout_after_customer_details', [ $this, 'customer_notification_field' ] );
+        add_action( 'woocommerce_review_order_before_submit', [ $this, 'customer_notification_field' ], 99 );
         add_action( 'woocommerce_checkout_process', [ $this, 'customer_notification_field_process' ] );
         add_action( 'woocommerce_checkout_update_order_meta', [ $this, 'customer_notification_update_order_meta' ] );
         add_action( 'woocommerce_admin_order_data_after_billing_address', [ $this, 'customer_sms_status_admin_order_meta' ], 10, 1 );

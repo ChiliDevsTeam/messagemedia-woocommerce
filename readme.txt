@@ -2,9 +2,9 @@
 Contributors: chilidevs, messagemediaau
 Tags: woocommerce-messagemedia, woocommerce, messagemedia, sms, sms-notification
 Requires at least: 4.4
-Tested up to: 5.7.0
-WC requires at least: 3.0
-WC tested up to: 5.1.0
+Tested up to: 5.8.0
+WC requires at least: 4.0
+WC tested up to: 5.5.2
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
@@ -16,7 +16,7 @@ Messagemedia Integration for WooCommerce
 
 A [MessageMedia](https://messagemedia.com/us/) integration with WooCommerce lets you create brilliant automated customer experiences through meaningful SMS engagement. Send text messages to your customers to confirm orders.
 
-[MessageMedia](https://messagemedia.com/us/) is an SMS service provider that helps you create engaging mobile experiences that customers, staff and communities love. [Learn more](https://messagemedia.com/us/) and (Sign up)[https://hub.messagemedia.com/registration/chilidevs]
+[MessageMedia](https://messagemedia.com/us/) is an SMS service provider that helps you create engaging mobile experiences that customers, staff and communities love. [Learn more](https://messagemedia.com/us/) and [Sign up](https://hub.messagemedia.com/registration/chilidevs)
 
 The Messagemedia WooCommerce plugin for WordPress is very useful when you want to get notified via SMS after placing an order. Customer and admin both will get SMS notification after an order is placed. You can sign up here for [create a account](https://hub.messagemedia.com/registration/chilidevs)
 
@@ -65,6 +65,11 @@ A. No, you don't need to purchase credit for testing purposes. Please check tria
 6. Admin notes in order
 
 == Changelog ==
+
+= v1.0.2 (August 13, 2021) =
+
+- **Fix:** Fixed buyer notification checbox layout styles.
+- **Fix:** Fixed some code formatting.
 
 = v1.0.1 (March 12, 2021) =
 
