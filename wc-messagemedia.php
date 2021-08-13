@@ -3,12 +3,12 @@
 Plugin Name: Messagemedia for WooCommerce
 Plugin URI: https://messagemedia.com/us/
 Description: This is an WooCommerce add-on. By Using this plugin admin and customer can get notification after placing order via messagemedia SMS gateways.
-Version: 1.0.1
+Version: 1.0.2
 Author: chilidevs
 Author URI: http://chilidevs.com/
 Text Domain: wc-messagemedia
-WC requires at least: 3.0
-WC tested up to: 5.1.0
+WC requires at least: 4.0
+WC tested up to: 5.5.2
 Domain Path: /languages/
 License: GPL2
 */
@@ -55,7 +55,7 @@ class WC_MessageMedia {
      *
      * @var string
      */
-    public $version = '1.0.1';
+    public $version = '1.0.2';
 
     /**
      * Instance of self

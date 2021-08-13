@@ -2,9 +2,9 @@
 Contributors: chilidevs, messagemediaau
 Tags: woocommerce-messagemedia, woocommerce, messagemedia, sms, sms-notification
 Requires at least: 4.4
-Tested up to: 5.7.0
-WC requires at least: 3.0
-WC tested up to: 5.1.0
+Tested up to: 5.8.0
+WC requires at least: 4.0
+WC tested up to: 5.5.2
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
@@ -65,6 +65,11 @@ A. No, you don't need to purchase credit for testing purposes. Please check tria
 6. Admin notes in order
 
 == Changelog ==
+
+= v1.0.2 (August 13, 2021) =
+
+- **Fix:** Fixed buyer notification checbox layout styles.
+- **Fix:** Fixed some code formatting.
 
 = v1.0.1 (March 12, 2021) =
 
